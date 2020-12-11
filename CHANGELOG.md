@@ -5,6 +5,7 @@ Versioning](http://semver.org/).
 
 ## Unreleased
 - Added compatibility with magento 2.4
+- Added default MESSAGE_GROUP_ID for fifo queue
 
 ## [1.0.2] - 2020-07-23
 ### Add
