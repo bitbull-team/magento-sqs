@@ -265,4 +265,19 @@ class Queue implements QueueInterface
         return $this->sqsConfig->getConnection();
     }
 
+    /**
+     * (@inheritdoc)
+     */
+    public function subscribeQueue(): void
+    {
+    }
+
+    /**
+     * (@inheritdoc)
+     */
+    public function clearQueue(): int
+    {
+        return 0;
+    }
+
 }
